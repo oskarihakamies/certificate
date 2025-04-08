@@ -258,7 +258,7 @@ Käytin annettua komentoa ja löysin binäärin tällä komennolla ~/go/bin/penc
 
 
 
-Netistä löydetyistä ja annetuista ohjeista lisäsin sen PATHiin komennolla export PATH=$PATH:~/go/bin
+Netistä löydetyistä ja annetuista ohjeista, sekä tekoälyä testailemalla lisäsin sen PATHiin komennolla export PATH=$PATH:~/go/bin
 
 
 
@@ -303,7 +303,7 @@ Yritys ZAP:in kanssa epäonnistui, vaikka yritin käynnistellä sitä päivät p
 
 # references
 
-OWASP 2021: OWASP Top 10:2021, A01:2021 – Broken Access Controlhttps://owasp.org/Top10/A01_2021-Broken_Access_Control/
+OWASP 2021: OWASP Top 10:2021, A01:2021 – Broken Access Control https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 
 
 OWASP 2021: OWASP Top 10:2021, A10:2021 – Server-Side Request Forgery (SSRF) https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
@@ -312,9 +312,22 @@ OWASP 2021: OWASP Top 10:2021, A10:2021 – Server-Side Request Forgery (SSRF) h
 PortSwigger: Insecure direct object references (IDOR), https://portswigger.net/web-security/access-control/idor
 
 
+Rooney 2023: How to Set Up Proxies with FoxyProxy (Configuration Tutorial)  https://proxy-zone.net/integrations/foxyproxy/
+
+
+PortSwigger:  File path traversal, simple case https://portswigger.net/web-security/file-path-traversal/lab-simple
+
+
 PortSwigger: Stored XSS into HTML context with nothing encoded, https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded
 
 
+PortSwigger: Basic SSRF against the local server, https://portswigger.net/web-security/ssrf/lab-basic-ssrf-against-localhost
+
+
+Github: pencode - complex payload encoder,  https://github.com/ffuf/pencode?tab=readme-ov-file#installation
+
+
+ChatGPT 2025: chatgpt.com
 
 
 z3nsh3ll: What Is Stored XSS? (Cross Site Scripting), https://www.youtube.com/watch?v=dWQVRHGs6r4
