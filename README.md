@@ -165,11 +165,34 @@ d)
 
 Lab: Stored XSS into HTML context with nothing encoded
 
+Tässä labrassa on tallennettu XSS-haavoittuvuus (Stored XSS), joka ilmenee HTML-kontekstissa.
 
-<img width="566" alt="image" src="https://github.com/user-attachments/assets/1b7dfec1-f020-4319-a916-f29f200ff262" />
+Tehtävänä olisi syöttää jokin haitallinen JavaScripti sivuston lomakekohdassa.
+
+Sivustolla pitäisi olla oikeanlainen rakenne, jotta erikoismerkkejä läyttäessä, ne eivät siirtyisi suoraan sivustolle niille tarkoitetussa koodimuodossa. Tässä on mm. esimerkkitapaus, jossa koodin kirjoittaminen lomakekenttään julkaisi sen koodimuodossa. 
 
 
-Tätä labraa en pystynyt avaamaan, sillä se avasi aina saman sivun uudestaan. En ole täysin varma tuliko muille sama ongelma. 
+<img width="268" alt="image" src="https://github.com/user-attachments/assets/3684566d-ad50-4ada-b961-6beda7752e03" />
+
+
+
+
+![image](https://github.com/user-attachments/assets/06cbb070-7ebf-4ef0-a2b2-1b2c6d269125)
+
+
+
+Sen takia laboratoriota tehdessä kysyttiin, miten laboratorio saataisiin printattua. Ja koska koodi tuo suoran vastauksen sivulle, niin käyttäen komentoa
+
+<img width="259" alt="image" src="https://github.com/user-attachments/assets/36ee0ab9-0e1f-4487-bac0-c4bb3e188d26" />
+
+
+Ratkaisee annetun tehtävänannon mukaisesti laboratorion. 
+
+
+<img width="761" alt="image" src="https://github.com/user-attachments/assets/6621bb13-81bf-42a8-9057-a48cfe7a80e0" />
+
+
+
 
 
 e) 
@@ -235,6 +258,15 @@ Käytin annettua komentoa ja löysin binäärin tällä komennolla ~/go/bin/penc
 
 
 
+Netistä löydetyistä ja annetuista ohjeista lisäsin sen PATHiin komennolla export PATH=$PATH:~/go/bin
+
+
+
+<img width="277" alt="image" src="https://github.com/user-attachments/assets/84a736ef-c949-4b6b-9f4f-69da223f0e52" />
+
+
+Näin se pystyi "encodaamaan stringin"
+
 
 
 
@@ -281,6 +313,10 @@ OWASP 2021: OWASP Top 10:2021, A10:2021 – Server-Side Request Forgery (SSRF) h
 
 
 PortSwigger: Insecure direct object references (IDOR), https://portswigger.net/web-security/access-control/idor
+
+
+z3nsh3ll: What Is Stored XSS? (Cross Site Scripting), https://www.youtube.com/watch?v=dWQVRHGs6r4
+
 
 
 
