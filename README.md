@@ -20,12 +20,12 @@ A10:2021 – Server-Side Request Forgery (SSRF)
 - Voidaan estää mm. kerroksittain OSI mallia katsoen. Päällimmäisenä tietysti network ja application layer. 
 - Omasta mielestä hieman kiinnostavampi aihe lukea verrattuna näihin kahteen OWASP aiheeseen.
 
-## PortSwigget Academy:
+  
 
-Insecure direct object references (IDOR)
--
+## PortSwigget Academy: 
 
-
+Insecure direct object resources (IDOR)
+- 
 
 
 
