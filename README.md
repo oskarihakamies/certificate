@@ -24,9 +24,19 @@ A10:2021 – Server-Side Request Forgery (SSRF)
 
 ## PortSwigget Academy: 
 
-Insecure direct object resources (IDOR)
-- 
+Insecure direct object references (IDOR)
 
+- Termi IDOR popularisoitui vuonna 2007 sen noustessa OWASP top teniin.
+- Eli IDOR on pääsynhallinnan haavoittuvuus, joka ilmenee, kun sovellus käyttää käyttäjän antamaa syötettä päästäkseen suoraan käsiksi objekteihin.
+- Ongelma ilmenee, kun sovellus luottaa liikaa siihen mihin käyttäjä voi päästä käsiksi.
+- Tunnilla mainittu hyökkäys, jota oli mielenkiintoista kuunnella.
+
+
+Path traversal
+
+- Toiselta nimeltä tunnettu myös directory traversal, missä haavoittuvaisuus tapahtuu, kun sovellus ei tarkista käyttäjän antamaa syötettä kunnolla.
+- PortSwiggerillä hyvin kuvattu miten hyökkäys mahdollistettaisiin mm. ../ lisäyksellä, joka lisäisi yhden path filen (tässä tapauksessa salasanoihin)
+- Voidaan estää 
 
 
 
@@ -34,4 +44,8 @@ Insecure direct object resources (IDOR)
 
 
 # references
+
+OWASP 2021: OWASP Top 10:2021, A01:2021 – Broken Access Controlhttps://owasp.org/Top10/A01_2021-Broken_Access_Control/
+OWASP 2021: OWASP Top 10:2021, A10:2021 – Server-Side Request Forgery (SSRF) https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
+
 
