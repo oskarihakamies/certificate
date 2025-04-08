@@ -179,7 +179,53 @@ Lab: File path traversal, simple case
 Tehtävän kuvaus ja tavoite: Tavoitteena on käyttää polun path traversalia lukeaksemme palvelimelta tiedoston, jota ei ole tarkoitettu käyttäjän nähtäväksi. Tässä tapauksessa on se aiemmin mainittu ja riskialtis /etc/passwd
 
 
-Ainakin aluksi sivustoa katsoessani huomasin, että joka tuotteelle ja kuvalle tuli eri parametri URL:lään, mikä on tietenkin normaalia, mutta mietin haavoittuvuutta tätä kautta. 
+Ainakin aluksi sivustoa katsoessani huomasin, että joka tuotteelle ja kuvalle tuli eri parametri URL:lään, mikä on tietenkin normaalia, mutta mietin haavoittuvuutta tätä kautta. Mutta sen jälkeen alkoi ZAP lagaamaan kalissa, sekä koneversio ei suostunut lataamaan. 
+
+
+<img width="506" alt="image" src="https://github.com/user-attachments/assets/08030fc6-d559-4b8b-bfa0-3398d47d8725" />
+
+
+Kalissa näytti myös tätä, joten tein näiden kahden takia pari vapaaehtoista lopuksi. Oikeastaan kaikki path traversalin, missä tarvitsi burp suittia tai zappia.
+
+
+
+h) 
+
+
+Insecure Direct Object Reference (IDOR)
+
+Tarkoituksena on hyödyntää haavoittuvuutta, jossa käyttäjä voi päästä käsiksi muiden käyttäjien tietoihin muuttamalla objektin (esim. käyttäjätunnuksen, asiakasnumeron tai tiedostonimen) arvoa suoraan URL:ssa tai pyynnössä.
+
+Aloitin siis kirjoittamalla live-chattiin
+
+<img width="585" alt="image" src="https://github.com/user-attachments/assets/de898df4-d041-4943-8a0f-bff737857b65" />
+
+Ottamalla live transcriptin ulos se loi tekstitiedoston
+
+
+You: moi<br/>Hal Pline: I'll look that up when my nail polish has dried.<br/>Hal Pline: If you ask me another question like that and I'm handing in my notice<br/>CONNECTED: -- Now chatting with Hal Pline --<br/>Y
+
+<img width="283" alt="image" src="https://github.com/user-attachments/assets/e463af1c-7c7f-4cd3-acc8-200de63c1728" />
+
+
+Vaihtamalla text.2 kuvaa teksti 0 tai 1 printtasi se salasanan. 
+
+
+Tähän väliin on pakko sanoa, että tehtävät yritin analysoida niin hyvin kuin mahdollista, mutta windows ei antanut ladata ZAP:ia ja labrojen, sekä zapin käyttäminen kalissa alkoi lagaamaan aivan liikaa, joten tehtävien teko ei sielläkään onnistunut. Yritin korvata ne vapaa-ehtois tehtävillä. 
+
+
+
+
+k)  Asenna pencode ja muunna sillä jokin merkkijono (encode a string).
+
+
+
+
+
+
+
+
+
 
 
 
