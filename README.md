@@ -78,6 +78,48 @@ Tallensin generoimani sertifikaatin koneelleni:
 <img width="271" alt="image" src="https://github.com/user-attachments/assets/ca5ebae9-1718-4c1b-9c64-f506f8976616" />
 
 
+Sen jälkeen siirryin kalissa Firefoxyyn, jonka asetuksista lähdin etsimään sertifikaatteja. Ne löytyivät privacy and security kohdasta, josta sitten lähdin importtaamaan aiemmin generoimaani sertifikaattia. 
+
+<img width="358" alt="image" src="https://github.com/user-attachments/assets/244eb633-7f11-4dce-a4ad-1b1102c659c5" />
+
+<img width="457" alt="image" src="https://github.com/user-attachments/assets/718a97ae-04c2-4fad-8c86-c95ab24450e9" />
+
+Liitin sen jälkeen networkista HTTP proxyn ja testasin yhteyttä kirjoittamalla googlen osoitteen firefoxiin ja katsoin reagoiko ZAP samalla. 
+
+<img width="479" alt="image" src="https://github.com/user-attachments/assets/b2c6dd6d-2e19-4f4f-aa23-3f07d77b88e3" />
+
+Kuten ZAP:ista näkyy
+<img width="384" alt="image" src="https://github.com/user-attachments/assets/dd822b12-b58f-44f8-b81e-cf244a9be226" />
+
+Liikennettä näkyy juuri oikeassa osoitteessa, joten yhdistäminen onnistui. 
+
+
+b) 
+
+Siirryin tehtävään kettumaista, jossa tarkoituksena oli asentaa FoxyProxy standard ja lisätä ZAP proxyksi tähän. 
+
+Aloitin lisäämällä ensin FoxyProxyn selaimeen.
+
+<img width="347" alt="image" src="https://github.com/user-attachments/assets/e4583f59-3175-40cb-9005-e852898e0766" />
+
+Jonka jälkeen lisäsin ZAPin siihen:
+<img width="323" alt="image" src="https://github.com/user-attachments/assets/00639e69-e913-48a5-acb6-1a1bf1cd81fb" />
+
+
+Ja portswiggerin niin, että sieltä tuleva tieto tulisi ZAP:iin ja muu turha tieto pois
+
+<img width="531" alt="image" src="https://github.com/user-attachments/assets/e430de8c-bea1-4b79-850a-0624641a0fa2" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
