@@ -218,6 +218,23 @@ Tähän väliin on pakko sanoa, että tehtävät yritin analysoida niin hyvin ku
 
 k)  Asenna pencode ja muunna sillä jokin merkkijono (encode a string).
 
+Tein siis lisänä tämän tehtävän. Aloitin asentamalla go:n kaliin komennolla sudo apt install golang-go 
+
+<img width="148" alt="image" src="https://github.com/user-attachments/assets/42a1f4ca-8a0e-466a-94e3-8d478785a967" />
+
+Varmistin sen version vielä. 
+
+
+<img width="311" alt="image" src="https://github.com/user-attachments/assets/1095d3ce-a9c1-4283-8886-6826f9bde19f" />
+
+
+Käytin annettua komentoa ja löysin binäärin tällä komennolla ~/go/bin/pencode
+
+
+<img width="307" alt="image" src="https://github.com/user-attachments/assets/b2e7289c-b000-4463-86f1-5ee46633403c" />
+
+
+
 
 
 
@@ -252,11 +269,21 @@ k)  Asenna pencode ja muunna sillä jokin merkkijono (encode a string).
 ## Yhteenveto
 
 
+
+
+
 # references
 
 OWASP 2021: OWASP Top 10:2021, A01:2021 – Broken Access Controlhttps://owasp.org/Top10/A01_2021-Broken_Access_Control/
+
+
 OWASP 2021: OWASP Top 10:2021, A10:2021 – Server-Side Request Forgery (SSRF) https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
+
+
 PortSwigger: Insecure direct object references (IDOR), https://portswigger.net/web-security/access-control/idor
+
+
+
 
 
 
