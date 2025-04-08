@@ -157,10 +157,30 @@ Tämän jälkeen syötin annetun XSS- skriptin <script>alert(1)</script>, joka t
 <img width="682" alt="image" src="https://github.com/user-attachments/assets/2a440174-ce8e-46c6-af07-d7d9741786c3" />
 
 
-Selain siis suorittaa <script> tagin heti, koska se on osa normaalia HTML:ää. Vika siis johtuu siitä, kun käyttäjän syötettä ei enkoodata tai validoida ennen sen lisäämistä HTML:ään. Community solutions kohdassa on hyviä esimerkkivideoita, jos haluaa tarkemmin selitystä labroista. 
+Selain siis suorittaa <script> tagin heti, koska se on osa normaalia HTML:ää. Vika siis johtuu siitä, kun käyttäjän syötettä ei enkoodata tai validoida ennen sen lisäämistä HTML:ään. Community solutions kohdassa on hyviä esimerkkivideoita, jos haluaa tarkemmin selitystä ratkaisusta ja siitä miten se toimii.  
+
 
 
 d) 
+
+Lab: Stored XSS into HTML context with nothing encoded
+
+
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/1b7dfec1-f020-4319-a916-f29f200ff262" />
+
+
+Tätä labraa en pystynyt avaamaan, sillä se avasi aina saman sivun uudestaan. En ole täysin varma tuliko muille sama ongelma. 
+
+
+e) 
+
+Lab: File path traversal, simple case
+
+Tehtävän kuvaus ja tavoite: Tavoitteena on käyttää polun path traversalia lukeaksemme palvelimelta tiedoston, jota ei ole tarkoitettu käyttäjän nähtäväksi. Tässä tapauksessa on se aiemmin mainittu ja riskialtis /etc/passwd
+
+
+Ainakin aluksi sivustoa katsoessani huomasin, että joka tuotteelle ja kuvalle tuli eri parametri URL:lään, mikä on tietenkin normaalia, mutta mietin haavoittuvuutta tätä kautta. 
+
 
 
 
