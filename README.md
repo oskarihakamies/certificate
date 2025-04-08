@@ -272,19 +272,11 @@ Näin se pystyi "encodaamaan stringin"
 
 
 
+l)
 
+mitmproxy oli ja ladattuna kalille. 
 
-
-
-
-
-
-
-
-
-
-
-
+<img width="315" alt="image" src="https://github.com/user-attachments/assets/d3a690a8-a992-4af7-a1f7-3ad027fcfaa2" />
 
 
 
@@ -299,6 +291,11 @@ Näin se pystyi "encodaamaan stringin"
 
 
 ## Yhteenveto
+
+Yhteenvetona tämä kotitehtävä ei sujunut oletetusti, vaikka käytin todella paljon aikaa siihen. 
+
+Yritys ZAP:in kanssa epäonnistui, vaikka yritin käynnistellä sitä päivät pitkät. Silti voin sanoa, että opin paljon eri hyökkäyksistä ja pääsin lukemaan, sekä itse käyttämään omia komentoja, jotka olivat ihan siistejä. 
+
 
 
 
@@ -315,7 +312,15 @@ OWASP 2021: OWASP Top 10:2021, A10:2021 – Server-Side Request Forgery (SSRF) h
 PortSwigger: Insecure direct object references (IDOR), https://portswigger.net/web-security/access-control/idor
 
 
+PortSwigger: Stored XSS into HTML context with nothing encoded, https://portswigger.net/web-security/cross-site-scripting/stored/lab-html-context-nothing-encoded
+
+
+
+
 z3nsh3ll: What Is Stored XSS? (Cross Site Scripting), https://www.youtube.com/watch?v=dWQVRHGs6r4
+
+
+Ubuntu: How To Install mitmproxy on Ubuntu 20.04, https://installati.one/install-mitmproxy-ubuntu-20-04/
 
 
 
